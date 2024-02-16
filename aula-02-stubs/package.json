@@ -1,0 +1,21 @@
+{
+  "name": "aula-01-mocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/service.test.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "18.14.2"
+  },
+  "devDependencies": {
+    "sinon": "^15.0.1"
+  }
+}
