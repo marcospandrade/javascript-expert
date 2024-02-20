@@ -1,5 +1,5 @@
 const { describe, it, after, before } = require('mocha');
-// const app = require('./api');
+
 const assert = require('assert');
 
 const supertest = require('supertest');

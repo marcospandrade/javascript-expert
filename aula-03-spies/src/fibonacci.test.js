@@ -10,7 +10,7 @@ const sinon = createSandbox();
         const fibonacci = new Fibonacci();
         const spy = sinon.spy(fibonacci, fibonacci.execute.name);
 
-        for(const sequencia of fibonacci.execute(5)){}
+        for(const _ of fibonacci.execute(5)){}
         const expectedCallCount = 6
         assert.strictEqual(spy.callCount, expectedCallCount)
 
