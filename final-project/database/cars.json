@@ -1,21 +1,21 @@
 [
   {
-    "id": "8e8ee061-52f1-4285-85c3-68a573243a8a",
-    "name": "Countach",
-    "releaseYear": 2023,
-    "available": true,
-    "gasAvailable": true
-  },
-  {
-    "id": "b3183ba7-2b6e-4d9b-8d0e-b5f33de670d7",
-    "name": "Countach",
+    "id": "6d93fbe9-7504-4564-a827-9ade0882a433",
+    "name": "Wrangler",
     "releaseYear": 2024,
     "available": true,
     "gasAvailable": true
   },
   {
-    "id": "b18241d0-ea81-4143-b6f1-afc4c8160554",
-    "name": "Escalade",
+    "id": "79adba45-cd0a-4cfd-8aa9-19c06bb12dde",
+    "name": "LeBaron",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "72a3071f-29ca-47ef-9121-218226f33b4c",
+    "name": "Challenger",
     "releaseYear": 2024,
     "available": true,
     "gasAvailable": true

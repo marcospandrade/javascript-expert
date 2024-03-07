@@ -35,6 +35,7 @@ for (let index=0; index <= ITEMS_AMOUNT; index++) {
         name: faker.name.findName(),
         age: faker.random.number({ min: 18, max: 50 })
     })
+    customers.push(customer)
 }
 
 const write = (filename, data) => writeFile(join(seederBaseFolder, filename), JSON.stringify(data))
@@ -43,6 +44,6 @@ const write = (filename, data) => writeFile(join(seederBaseFolder, filename), JS
     await write("cars.json", cars);
     await write("customers.json", customers);
     await write("carCategory.json", carCategory)
-    
+
     console.log("Seeding finished", cars)
 })()
