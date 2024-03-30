@@ -9,8 +9,7 @@ class File {
     static async csvToJson(filePath){
         const content = await readFile(filePath, 'utf8');
         const validation = this.isValid(content)
-        // console.log(content)
-        // console.log(validation)
+\
         if(!validation.valid) throw new Error(validation.error)
 
         const result = this.parseCSVToJson(content);

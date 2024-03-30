@@ -1,22 +1,22 @@
 [
   {
-    "id": "12dd7252-0d3b-432a-bf61-f3f13127c007",
-    "name": "Colorado",
-    "releaseYear": 2023,
-    "available": true,
-    "gasAvailable": true
-  },
-  {
-    "id": "423ed532-3da6-4ef3-a7d6-d82076d5545a",
-    "name": "Cruze",
-    "releaseYear": 2023,
-    "available": true,
-    "gasAvailable": true
-  },
-  {
-    "id": "a77cd2ae-d1d3-47d0-bfdc-4adb39214b87",
+    "id": "bf8213be-5605-4c44-9ac0-8fd8d207cffb",
     "name": "Focus",
     "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "e108aa56-3838-4e45-81be-5e4fe6178e73",
+    "name": "XTS",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "03e030a1-3c28-4f2a-8f4e-21da726a43aa",
+    "name": "Countach",
+    "releaseYear": 2023,
     "available": true,
     "gasAvailable": true
   }

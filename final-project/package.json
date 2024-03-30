@@ -7,19 +7,35 @@
     "test": "test"
   },
   "scripts": {
-    "test:dev": "npx mocha -w --parallel **/**/*.test.js",
-    "test": "npx mocha  **/**/*.test.js",
-    "test:cov": "npx nyc npx mocha  **/**/*.test.js",
+    "start": "tsx watch src/server.ts",
+    "test": "npx ts-mocha test/**/*.test.ts -w --watch-files '**/*.ts'",
+    "testwatch": "nodemon --exec \"npx ts-mocha test/**/*.test.ts -w --watch-files '**/*.ts'\"",
+    "test:cov": "npx nyc npx mocha  **/**/*.test.ts",
     "seed": "node ./seed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.3.14",
+    "@types/expect": "^24.3.0",
+    "@types/express": "^4.17.21",
+    "@types/mocha": "^10.0.6",
+    "@types/sinon": "^17.0.3",
+    "@types/supertest": "^6.0.2",
     "chai": "^4.4.1",
     "faker": "^5.1.0",
-    "mocha": "^10.3.0",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.0",
     "nyc": "^15.1.0",
-    "sinon": "^17.0.1"
+    "supertest": "^6.3.4",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "ts-sinon": "^2.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }

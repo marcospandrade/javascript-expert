@@ -1,0 +1,23 @@
+[
+  {
+    "id": "12dd7252-0d3b-432a-bf61-f3f13127c007",
+    "name": "Colorado",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "423ed532-3da6-4ef3-a7d6-d82076d5545a",
+    "name": "Cruze",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "a77cd2ae-d1d3-47d0-bfdc-4adb39214b87",
+    "name": "Focus",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  }
+]
