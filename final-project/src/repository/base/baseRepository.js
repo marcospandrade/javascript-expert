@@ -7,6 +7,7 @@ class BaseRepository {
   async find(itemId) {
     const content = JSON.parse(await readFile(this.file));
 
+    console.log({ content });
     if (!itemId) return;
 
     return content.find(({ id }) => id === itemId);
