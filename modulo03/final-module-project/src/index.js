@@ -5,9 +5,11 @@ import TerminalController from './terminalController.js';
 
 const DEFAULT_LANG = "pt-BR"
 const STOP_TERM = ":q"
-// 2 aviao,bike 200000 2020-02-20 2021-02-20
+
 const terminalController = new TerminalController();
 terminalController.initializeTerminal(database, DEFAULT_LANG);
+
+// EXAMPLE INPUT: 2 aviao,bike 200000 2020-02-20 2021-02-20
 
 async function mainLoop(){
     try {
