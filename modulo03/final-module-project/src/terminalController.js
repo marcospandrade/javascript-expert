@@ -1,5 +1,5 @@
 import DrafLog from 'draftlog';
-import chalk from 'chalk';
+import chalk from 'chalk/index.js';
 import chalkTable from 'chalk-table';
 import readline from 'readline'
 import Person from './person.js'
@@ -19,6 +19,11 @@ export default class TerminalController {
         })
 
         this.initializeTable(database, language)
+    }
+
+    updateTable(item) {
+        this.data.push(item);
+        this.print(chalkTable(this.getTableOptions(), this.data))
     }
 
     initializeTable(database, language){
